@@ -25,7 +25,7 @@ public class Recognizer{
         let height:Int
         
         /// A size with no extent
-        static let zero=Size(width: 0, height: 0)
+        public static let zero=Size(width: 0, height: 0)
     }
     
     
@@ -75,7 +75,7 @@ public class Recognizer{
         * `RecognizerErrors.openingModelFailed` if the model file does not exist or could not be read
      */
     
-    init(modelURL:URL, canvasSize:Size = .zero)throws {
+    public init(modelURL:URL, canvasSize:Size = .zero)throws {
         self.modelURL=modelURL
         
         guard let recognizer=zinnia_recognizer_new() else{
