@@ -48,7 +48,7 @@ let characters = result.map({$0.character})
 
 The recognizer can be reset using 
 
-```
+```swift
 recognizer.clear()
 ```
 
