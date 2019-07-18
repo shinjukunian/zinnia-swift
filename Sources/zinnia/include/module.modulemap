@@ -1,0 +1,4 @@
+module zinnia [system] {
+    header "../zinnia.h"
+    export *
+}
