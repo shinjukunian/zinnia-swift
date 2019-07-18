@@ -12,7 +12,7 @@ Use the Swift Package Manager. Add the following to your dependencies in `Packag
 
 ```swift 
 dependencies: [
-        .package(url: https://github.com/shinjukunian/zinnia-swift.git, from: "0.1.0"),
+        .package(url: "https://github.com/shinjukunian/zinnia-swift.git", from: "0.1.0"),
     ],
 ```
 
