@@ -32,9 +32,9 @@ public class Recognizer{
     /// A recognition result
     public struct Result:Equatable, Comparable{
         ///The recognized character
-        let character:String
+        public let character:String
         /// The score of the recognzied character
-        let score:Float
+        public let score:Float
         
         public static func < (lhs: Recognizer.Result, rhs: Recognizer.Result) -> Bool {
             return lhs.score < rhs.score

@@ -22,6 +22,10 @@ public extension Recognizer.Size{
         self.width=Int(CGSize.width)
         self.height=Int(CGSize.height)
     }
+    
+    var cgSize:CGSize{
+        return CGSize(width: self.width, height: self.height)
+    }
 }
 
 public extension Stroke{
