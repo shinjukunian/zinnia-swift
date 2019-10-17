@@ -68,7 +68,7 @@ public class Recognizer{
     /**
      Initializes the recognizer.
      - parameters:
-        - modelURL:The location of the model file
+        - modelURL: The location of the model file
         - canvasSize: The size of the canvas on which the characters are drawn. This can be changed later.
      - Throws:
         * `RecognizerErrors.recognizerInitializationFailed` if the recognizer could not be initialized.
