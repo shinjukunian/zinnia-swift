@@ -24,7 +24,7 @@ public struct Point{
  A stroke, a gesture that contains a number of points (from pen down to pen up). Several strokes make a character.
  */
 public struct Stroke{
-    var points=[Point]()
+    public var points=[Point]()
     
     public mutating func add(point:Point){
         self.points.append(point)
