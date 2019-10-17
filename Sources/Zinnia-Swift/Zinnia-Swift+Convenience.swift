@@ -11,16 +11,20 @@ import Foundation
 import CoreGraphics
 
 public extension Point{
-    init(CGPoint:CGPoint) {
-        self.x=Int(CGPoint.x)
-        self.y=Int(CGPoint.y)
+    init(cgPoint:CGPoint) {
+        self.x=Int(cgPoint.x)
+        self.y=Int(cgPoint.y)
+    }
+    
+    var cgPoint:CGPoint{
+        return CGPoint(x: self.x, y: self.y)
     }
 }
 
 public extension Recognizer.Size{
-    init(CGSize:CGSize) {
-        self.width=Int(CGSize.width)
-        self.height=Int(CGSize.height)
+    init(cgSize:CGSize) {
+        self.width=Int(cgSize.width)
+        self.height=Int(cgSize.height)
     }
     
     var cgSize:CGSize{
@@ -30,7 +34,7 @@ public extension Recognizer.Size{
 
 public extension Stroke{
     mutating func add(point:CGPoint){
-        self.add(point: Point(CGPoint: point))
+        self.add(point: Point(cgPoint: point))
     }
 }
 
