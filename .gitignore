@@ -3,3 +3,4 @@
 /Packages
 /*.xcodeproj
 .swiftpm/xcode/xcshareddata/xcschemes
+.swiftpm/xcode/xcuserdata
