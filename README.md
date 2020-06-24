@@ -54,9 +54,11 @@ recognizer.clear()
 
 to start a new character.
 
+For a sample application, see [https://github.com/shinjukunian/KanjiLookup-SwiftUI](https://github.com/shinjukunian/KanjiLookup-SwiftUI).
+
 ## To Do
 - [ ] Implement training
-- [ ] Sample application
+~~- [ ] Sample application~~
 
 ## Licence
 
